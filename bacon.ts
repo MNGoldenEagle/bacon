@@ -110,7 +110,7 @@ const cmd = program.command("bacon")
     .description("Goes wiki-diving from the topic of your choice in search of Bacon.  Kevin Bacon.")
     .argument("<topic>", "Wikipedia topic to start diving from. Can be either a URL or topic string (case sensitive).", cleanupTopic)
     .option("-d --debug", "Displays debugging information upon completion.")
-    .option("-t --trail", "Show the resulting trail of topics leading to the Bacon number.")
+    // .option("-t --trail", "Show the resulting trail of topics leading to the Bacon number.")
     .version(pkg.version)
     .parse();
 
